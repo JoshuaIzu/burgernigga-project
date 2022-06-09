@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: lato, sans-serif;
+    font-weight: 300;
+    /* text-align: center; */
+    background-color: #eee;
+}
+header{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+nav{
+    border: 2px solid white;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #eee;
+    box-shadow: 0 5px 5px rgba(50, 50, 50, 0.3);
+}
+.logo {
+    font-size: 2rem;
+}
+ul{
+display: flex;
+list-style:none;
+}
+ul li{
+    margin-right: 10px;
+    padding-top: 10px;
+    
+}
+ul li a:hover{
+    text-decoration: underline;
+    outline-color: rgba(59, 59,59, 0.3);
+    transition: all 2s ease-out;
+    background-color: red;
+}
+ul li a{
+    font: size 1.2rem;
+}
+/* styleing my header*/
+#title{
+   
+    height: 100vh;
+    background: url("./assets/images/pexels-valeria-boltneva-1639562.jpg") no-repeat center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.photos{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.grid-image{
+    width: 8rem;
+    flex: 0 0 50%;
+    box-sizing: border-box;
+    height: min-content;
+    outline: none;
+}
+.quote{
+    background-color:black;
+    padding: 40px 40px;
+    color: #eee;
+    text-align: center;
+
+}
+.quote2{
+    background-color: coral;
+    padding: 40px;
+    text-align: center;
+}
+#about{
+    margin: 30px 60px;
+    padding: 20px 40px;
+    word-wrap: break-word;
+    text-align: center;
+}
+}*********form***/
+#contact {
+	padding-top: 4rem;
+	font-size: 3rem;
+}
+
+#contact form {
+	padding: 0 20%;
+	text-align: left;
+}
+
+#contact h2 {
+	margin: 2rem 0;
+    text-align: center;
+}
+
+#contact label {
+	font-size: 1.2rem;
+}
+
+#contact textarea {
+	height: 20rem;
+}
+input,
+textarea {
+	background-color: #e9e9e9;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin: 0;
+	padding: 1rem;
+	width: 100%;
+	box-sizing: border-box; 
+	margin-bottom: 2rem;
+	font-size: 1.2rem;
+}
+input[type="name"] {
+    margin-left: 0;
+    text-align: left;
+}
+input[type="submit"] {
+   background-color: #333;
+   color: white; 
+}
+
+
+}
+
+    
+}
